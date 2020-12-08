@@ -6,4 +6,4 @@ for first in range(0, 10):
         if first == 8 and second == 9:
             print("{:d}".format(second))
         else:
-            print("{:d} ".format(second), end='')
+            print("{:d}, ".format(second), end='')
