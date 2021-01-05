@@ -5,4 +5,5 @@ Class Square: creates a square class
 
 
 class Square:
+    """Create an empty square class"""
     pass
