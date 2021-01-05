@@ -2,5 +2,7 @@
 """
 Class Square: creates a square class
 """
+
+
 class Square:
     pass
