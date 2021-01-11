@@ -70,14 +70,8 @@ class Rectangle:
             return result
 
     def __repr__(self):
-        """
-        prints visual representation
-        """
         return "Rectangle(" + str(self.width) + "," + str(self.height) + ")"
 
     def __del__(self):
-        """
-        deletes an instance
-        """
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
