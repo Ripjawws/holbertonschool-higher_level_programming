@@ -8,6 +8,9 @@ Class Rectangle: create a rectangle
 
 
 class Rectangle:
+    """
+    creates a rectangle
+    """
     number_of_instances = 0
     print_symbol = "#"
 
@@ -44,22 +47,21 @@ class Rectangle:
 
     def area(self):
         """
-        area of rectangle
+        defines area of rectangle
         """
         return (self.__width * self.__height)
 
     def perimeter(self):
         """
-        perimeter of rectangle
+        defines perimeter of rectangle
         """
-
         if self.__width == 0 or self.__height == 0:
             return 0
         return ((self.__width + self.__height) * 2)
 
     def __str__(self):
         """
-        prints a visual representation
+        prints visual representation
         """
         result = ""
 
@@ -75,12 +77,14 @@ class Rectangle:
 
     def __repr__(self):
         """
-        returning a visual representation
+        prints visual representation
         """
-
         return "Rectangle(" + str(self.width) + "," + str(self.height) + ")"
 
     def __del__(self):
+        """
+        deletes instances of rectangle
+        """
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
 
@@ -99,6 +103,9 @@ class Rectangle:
             return rect_1
 
     @classmethod
+    """
+    define a square
+    """
     def square(cls, size=0):
         """define a square"""
         return cls(size, size)
