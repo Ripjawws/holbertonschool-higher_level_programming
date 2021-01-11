@@ -103,9 +103,6 @@ class Rectangle:
             return rect_1
 
     @classmethod
-    """
-    define a square goodbye rectangle
-    """
     def square(cls, size=0):
         """define a square goodbye rectangle"""
         return cls(size, size)
