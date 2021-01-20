@@ -1,4 +1,4 @@
-#!/use/bin/python3
+#!/usr/bin/python3
 """
 
 Returns true if the object is exactly an instance of clase if not False
