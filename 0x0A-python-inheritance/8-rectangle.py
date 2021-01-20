@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+importing from basegeometry
+"""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 """
 Return true if object is an instance
