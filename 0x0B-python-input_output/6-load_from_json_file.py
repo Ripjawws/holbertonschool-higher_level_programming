@@ -7,6 +7,7 @@ writes object to a text file
 
 """
 
+
 def load_from_json_file(filename):
     """
     writes an object to a text file

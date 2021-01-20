@@ -11,7 +11,7 @@ saves and loads from python to json
 
 """
 if __name__ == "__main__":
-    name ="add_item.json"
+    name = "add_item.json"
     if os.path.isfile(name):
         mylist = load_from_json_file(name)
     else:
@@ -19,4 +19,3 @@ if __name__ == "__main__":
     for i in range(1, len(argv)):
         mylist.append(argv[i])
     save_to_json_file(mylist, name)
-    
