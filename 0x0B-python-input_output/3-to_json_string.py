@@ -7,6 +7,7 @@ from json to a string
 
 """
 
+
 def to_json_string(my_obj):
     """
     from json to a string
