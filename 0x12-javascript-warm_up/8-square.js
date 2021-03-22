@@ -2,12 +2,10 @@
 /*
 Script that prints a square
 */
-let a;
-let b;
-if ((a = process.argv[2]) && (b = parseInt(a))) {
-  for (let i = 0; i < b; i++) {
-    console.log('x'.repeat(b));
-  }
-} else {
+const a = parseInt(process.argv[2]);
+for (let i = 0; i < a; i++) {
+  console.log('x'.repeat(a));
+}
+if (isNaN(a) === true) {
   console.log('Missing size');
 }
