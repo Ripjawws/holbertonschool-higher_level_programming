@@ -7,6 +7,6 @@ if (isNaN(a) === true) {
   console.log('Missing size');
 } else {
   for (let i = 0; i < a; i++) {
-    console.log('x'.repeat(a));
+    console.log('X'.repeat(a));
   }
 }
