@@ -2,7 +2,7 @@
 /*
 Script that computes and prints a factorial
 */
-const arg = parseInt(process.argv[2]);
+const arg1 = parseInt(process.argv[2]);
 
 function factorial (n) {
   if (isNaN(n) === true) {
@@ -14,4 +14,5 @@ function factorial (n) {
     return (n * factorial(n - 1));
   }
 }
-console.log(factorial(arg));
+
+console.log(factorial(arg1));
