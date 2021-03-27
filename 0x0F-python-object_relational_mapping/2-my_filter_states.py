@@ -11,7 +11,7 @@ if __name__ == "__main__":
         like %s ORDER BY id ASC", (argv[4],))
     rows = cur.fetchall()
     for row in rows:
-        print(row)
+      print("{}".format(row))
     # Close all cursors
     cur.close()
     # Close all databases
